@@ -1,0 +1,40 @@
+Initialize SIGNATURE TABLE
+ST_SET: 1
+ST_WAY: 256
+ST_TAG_BIT: 16
+ST_TAG_MASK: ffff
+
+Initialize PATTERN TABLE
+PT_SET: 512
+PT_WAY: 4
+SIG_DELTA_BIT: 7
+C_SIG_BIT: 4
+C_DELTA_BIT: 4
+
+Initialize PREFETCH FILTER
+FILTER_SET: 1024
+
+*** ChampSim Multicore Out-of-Order Simulator ***
+
+Warmup Instructions: 50000000
+Simulation Instructions: 50000000
+Number of CPUs: 1
+LLC sets: 2048
+LLC ways: 16
+Off-chip DRAM Size: 4096 MB Channels: 1 Width: 64-bit Data Rate: 3200 MT/s
+
+CPU 0 runs /home/tapatil/CSE240C/SA1/ChampSim-master/ipc1_public/spec_gcc_002.champsimtrace.xz
+CPU 0 EPI prefetcher
+CPU 0 L1D next line prefetcher
+Heartbeat CPU 0 instructions: 10000002 cycles: 3570448 heartbeat IPC: 2.80077 cumulative IPC: 2.80077 (Simulation time: 0 hr 0 min 28 sec) 
+Heartbeat CPU 0 instructions: 20000000 cycles: 7154009 heartbeat IPC: 2.79052 cumulative IPC: 2.79564 (Simulation time: 0 hr 0 min 54 sec) 
+Heartbeat CPU 0 instructions: 30000000 cycles: 10791176 heartbeat IPC: 2.74939 cumulative IPC: 2.78005 (Simulation time: 0 hr 1 min 24 sec) 
+Heartbeat CPU 0 instructions: 40000000 cycles: 14355814 heartbeat IPC: 2.80533 cumulative IPC: 2.78633 (Simulation time: 0 hr 1 min 51 sec) 
+Heartbeat CPU 0 instructions: 50000002 cycles: 17826296 heartbeat IPC: 2.88144 cumulative IPC: 2.80485 (Simulation time: 0 hr 2 min 16 sec) 
+
+Warmup complete CPU 0 instructions: 50000002 cycles: 17826296 (Simulation time: 0 hr 2 min 16 sec) 
+
+Heartbeat CPU 0 instructions: 60000001 cycles: 57921050 heartbeat IPC: 0.249409 cumulative IPC: 0.249409 (Simulation time: 0 hr 3 min 18 sec) 
+Heartbeat CPU 0 instructions: 70000001 cycles: 89753544 heartbeat IPC: 0.314144 cumulative IPC: 0.278059 (Simulation time: 0 hr 4 min 9 sec) 
+Heartbeat CPU 0 instructions: 80000002 cycles: 138702865 heartbeat IPC: 0.204293 cumulative IPC: 0.248187 (Simulation time: 0 hr 5 min 5 sec) 
+Heartbeat CPU 0 instructions: 90000001 cycles: 183236219 heartbeat IPC: 0.224551 cumulative IPC: 0.241823 (Simulation time: 0 hr 5 min 56 sec) 
